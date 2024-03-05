@@ -1,0 +1,120 @@
+<div class="div">
+  <img
+    loading="lazy"
+    src="/public/bg.jpg"
+    class="img"
+  />
+  <img
+    loading="lazy"
+    srcset="https://t4.ftcdn.net/jpg/04/63/32/87/360_F_463328757_GRbsRWcWA8MzhlRlO9GzuBE3BjMzq6Fr.jpg"
+    class="img-2"
+  />
+  <div class="div-2">user_id</div>
+  <div class="div-3">password</div>
+  <div class="div-4">forget password</div>
+  <div class="div-5">log in</div>
+  <div class="div-6">sign up</div>
+  <div class="div-7">TERMS &CONDITIONS</div>
+</div>
+<style>
+  .div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    border: 1px solid #000;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 896px;
+    max-width: 480px;
+    width: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 50px 42px;
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+  }
+  .img-2 {
+    aspect-ratio: 0.98;
+    object-fit: auto;
+    object-position: center;
+    width: 132px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    align-self: center;
+    margin-top: 42px;
+    max-width: 100%;
+    z-index: 3243;
+  }
+  .div-2 {
+    position: relative;
+    border: 1px solid #000;
+    background-color: rgba(243, 248, 31, 0.6);
+    margin-top: 82px;
+    align-items: start;
+    color: rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    padding: 28px 60px 7px 16px;
+    font: 36px Jockey One, sans-serif;
+  }
+  .div-3 {
+    position: relative;
+    border: 1px solid #000;
+    background-color: rgba(245, 249, 61, 0.67);
+    margin-top: 25px;
+    align-items: start;
+    color: rgba(12, 12, 11, 0.7);
+    white-space: nowrap;
+    padding: 24px 60px 11px 16px;
+    font: 36px Jockey One, sans-serif;
+  }
+  .div-4 {
+    position: relative;
+    color: #121111;
+    margin-top: 5px;
+    font: 20px Joti One, sans-serif;
+  }
+  .div-5 {
+    position: relative;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    border: 1px solid #000;
+    background-color: rgba(206, 41, 41, 0.79);
+    align-self: start;
+    color: #111;
+    white-space: nowrap;
+    margin: 26px 0 0 27px;
+    padding: 6px 36px 13px;
+    font: 32px Joti One, sans-serif;
+  }
+  .div-6 {
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: linear-gradient(
+      90deg,
+      rgba(232, 34, 34, 0.92) 0%,
+      rgba(135, 66, 66, 0.92) 100%
+    );
+    width: 262px;
+    max-width: 100%;
+    align-items: start;
+    color: rgba(12, 11, 11, 0.92);
+    margin: 25px 0 0 27px;
+    padding: 19px 36px 9px;
+    font: 64px Jomhuria, sans-serif;
+  }
+  .div-7 {
+    position: relative;
+    color: #121212;
+    align-self: start;
+    margin: 7px 0 0 57px;
+    font: 32px Jomhuria, sans-serif;
+  }
+</style>
